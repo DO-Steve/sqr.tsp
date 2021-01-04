@@ -21,7 +21,7 @@ public class CityTest {
 	public void distanceTo_BFromA_1(){
 		double expected = 1;
 		double actual = A.distanceTo(B);
-		assertEquals(expected, actual, 0.0)
+		assertEquals(expected, actual, 0.0);
 	}
 
 	@Test
