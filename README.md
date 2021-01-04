@@ -38,7 +38,7 @@ Hereafter, for each classes give function to be tested. Remember that all functi
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| containsCity  | D | Elle n'est pas testable car elle utilise une ArrayList de Java |
+| containsCity  | D | Elle n'est pas testable car elle utilise une méthode Array de Java |
 | getCity  | D | C'est un getter non testable |
 | getDistance  | T | C'est un getter testable |
 | getFitness  | T | C'est un getter testable car elle utilise l'attribut fitness puis renvoie en fonction de sa valeur |
