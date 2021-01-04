@@ -29,31 +29,31 @@ Hereafter, for each classes give function to be tested. Remember that all functi
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| distanceToCity |  |  | 
-| getX |  |  | 
-| getY |  |  | 
-| toString |  |  | 
+| distanceToCity | T | La méthode peut être testé | 
+| getX | D | C'est un getter non testable | 
+| getY | D | C'est un setter non testable | 
+| toString | D | C'est un toString qui concatene les getters autogénérés | 
 
 ### Class Tour
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| containsCity  |  |  |
-| getCity  |  |  |
-| getDistance  |  |  |
-| getFitness  |  |  |
-| setCity  |  |  |
-| tourSize  |  |  |
-| toString  |  |  |
+| containsCity  | D | Elle n'est pas testable car elle utilise une ArrayList de Java |
+| getCity  | D | C'est un getter non testable |
+| getDistance  | T | C'est un getter testable |
+| getFitness  | T | C'est un getter testable car elle utilise l'attribut fitness puis renvoie en fonction de sa valeur |
+| setCity  | D | Elle n'est pas testable car elle utilise une ArrayList de Java |
+| tourSize  | D | Elle n'est pas testable car elle utilise une ArrayList de Java |
+| toString  | D | C'est un toString qui concatene les getters autogénérés |
 
 ### Class Population
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| getFittest  |  |  |
-| getTour  |  |  |
-| populationSize  |  |  |
-| saveTour  |  |  |
+| getFittest  | T | Cette méthode est testable car elle renvoie le meilleur individu |
+| getTour  | D | Elle n'est pas testable car elle utilise la méthode Array de Java |
+| populationSize  | D | Elle n'est pas testable car c'est une méthode de structure de dpnnée array de Java |
+| saveTour  | D | Elle n'est pas testable car elle utilise la méthode length de la classe Array de Java |
 
 ## Functions to test now
 
