@@ -1,5 +1,8 @@
 package tsp.lee.jacobson;
 
+    //** De Oliveira Steve 4A SQR **//
+    //** Cette classe permet de créer des coordonnées de ville et de calculer la distance entre 2 villes **//
+
 public class City {
     int x;
     int y;

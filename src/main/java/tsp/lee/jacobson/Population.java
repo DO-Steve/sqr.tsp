@@ -1,5 +1,8 @@
 package tsp.lee.jacobson;
 
+    //** De Oliveira Steve 4A IT **//
+    //** Cette classe permet de créer une population **//
+
 public class Population {
 
     // Holds population of tours

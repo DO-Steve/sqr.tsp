@@ -1,5 +1,8 @@
 package tsp.lee.jacobson;
 
+    //** De Oliveira Steve 4A SQR **//
+    //** Cette classe permet de créer le trajet entre chaque ville et d'en mesurer la fitness **//
+
 import java.util.ArrayList;
 import java.util.Collections;
 
