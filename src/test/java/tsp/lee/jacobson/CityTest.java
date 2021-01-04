@@ -48,7 +48,7 @@ public class CityTest {
 	@Test
 	public void distanceTo_DFromE_2() {
 		City D = new City(3,4);
-		City E = new City(4, 3);
+		City E = new City(4, 4);
 		double expected = 2;
 		double actual = D.distanceTo(E);
 		assertEquals(expected, actual, 0.0);
